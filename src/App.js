@@ -69,7 +69,11 @@ function App() {
       }
     }
     if (cmd[0].toUpperCase() === "REPORT") {
-      alert(`Robot is at x: [${pos[0]} , y: ${pos[1]}] and facing: ${facing}`);
+      alert(
+        `Robot is at x: [${pos[1]} , y: ${
+          SIZE - pos[0] - 1
+        }] and facing: ${facing}`
+      );
     }
   };
 
