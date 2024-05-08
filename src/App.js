@@ -84,7 +84,7 @@ function App() {
       <button onClick={handleRobot}>Submit</button>
       {facing && (
         <p>
-          Robot is at {SIZE - pos[1]} , {pos[0]} facing {facing}
+          Robot is at {pos[1]} , {SIZE - pos[0] - 1} facing {facing}
         </p>
       )}
     </div>
