@@ -3,11 +3,11 @@
 ## Description
 The Toy Robot Simulator is a React application that simulates a toy robot moving on a square tabletop of dimensions 5 units x 5 units. The robot can be placed on the table, moved around, and rotated in four directions: NORTH, SOUTH, EAST, and WEST. The application takes commands in the following format:
 
-PLACE X,Y,F: Places the toy robot on the table at position X,Y and facing the specified direction (NORTH, SOUTH, EAST, or WEST).
-MOVE: Moves the toy robot one unit forward in the direction it is currently facing.
-LEFT: Rotates the robot 90 degrees to the left without changing its position.
-RIGHT: Rotates the robot 90 degrees to the right without changing its position.
-REPORT: Displays the current position (X,Y) and facing direction (F) of the robot.
+- PLACE X,Y,F: Places the toy robot on the table at position X,Y and facing the specified direction (NORTH, SOUTH, EAST, or WEST).
+- MOVE: Moves the toy robot one unit forward in the direction it is currently facing.
+- LEFT: Rotates the robot 90 degrees to the left without changing its position.
+- RIGHT: Rotates the robot 90 degrees to the right without changing its position.
+- REPORT: Displays the current position (X,Y) and facing direction (F) of the robot.
 The application ensures that the robot does not fall off the table during movement and ignores commands that would cause it to fall.
 
 ## Available Scripts
