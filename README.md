@@ -15,6 +15,7 @@ The application ensures that the robot does not fall off the table during moveme
  - if size of box is 5 , then max index till robot can go is 4,4
 
 ## SAMPLE COMMANDS
+ - Insert the commands in the input box and click submit button to execute
  - PLACE 1 3 NORTH
  - MOVE
  - MOVE
